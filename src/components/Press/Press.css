@@ -1,0 +1,69 @@
+.graphics {
+    margin: 3.5rem;
+    position: relative;
+    width: 1250px;
+    left: 45%;
+    transform: translateX(-45%);
+
+}
+
+.graphics img {
+    margin: 2rem;
+
+}
+
+.graphics2 {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .graphics {
+        display: none;
+    }
+
+    .graphics2 {
+        display: flex;
+        position: relative;
+        width: 380px; 
+    }
+    .graphics2 .class1 {
+        margin: 1rem ;
+        padding: 1rem;
+        margin-left: 0.5rem;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .graphics2 .class2 {
+        margin: 1rem ;
+        padding: 1rem;
+        margin-right: 2rem;
+    }
+    
+    .graphics2 .class1 .boom img {
+        width: 105%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    .graphics2 .class2 .qrco img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 15%;
+        margin-left: 4%;
+    }
+    .graphics2 .class1 .blimp img {
+        width: 65%;
+        height: auto;
+        margin-left: 3.5%;
+    }
+    .graphics2 .class2 .droplet img {
+        width: 105%;
+        height: auto;
+        
+        
+    }
+
+
+
+
+}

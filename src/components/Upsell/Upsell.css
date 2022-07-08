@@ -1,0 +1,99 @@
+.rectangle {
+    padding: 2rem;
+    margin: 2rem;
+    background-image: linear-gradient(101deg, #FF3998,#FF3939,#FF8139, #39FFA0);
+    border-radius: 12px;
+    position: relative;
+    width: 1050px;
+    left: 45%;
+    transform: translateX(-45%);
+}
+
+.rectangle .content {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.rectangle img {
+    width: 60px;
+    height: auto;
+}
+
+.rectangle h1 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #111111;
+}
+
+.rectangle p {
+    font-family: Inter;
+    font-size: 18px;
+    color: #111111;
+}
+
+.rectangle .graphic {
+    position: absolute;
+    left: 55%;
+    top: -30%;
+    
+}
+
+.rectangle .graphic img {
+    width: 400px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    .rectangle {
+        padding: 2px;
+        padding-bottom: 5px;
+        margin: 0;
+        margin-top: 60px;
+        background-image: linear-gradient(110deg,#FF3939,#FF8139,  #39FFA0);
+        border-radius: 0;
+        position: relative;
+        width: 380px;
+    }
+
+    .rectangle .content {
+        margin-left: 1.5rem;
+        margin-right: 4rem;
+    }
+    
+    .rectangle img {
+        width: 55px;
+        height: auto;
+    }
+    
+    .rectangle h1 {
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: #111111;
+    }
+    
+    .rectangle p {
+        font-family: Inter;
+        font-size: 16px;
+        color: #111111;
+
+    }
+    
+    .rectangle .graphic {
+        position: absolute;
+        left: 52%;
+        top: -15%;
+        
+    }
+    
+    .rectangle .graphic img {
+        width: 150px;
+        height: auto;
+    }
+
+}
+
